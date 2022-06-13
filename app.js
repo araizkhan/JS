@@ -1,8 +1,14 @@
   // document.getElementById("count-el").innerText = 5;
 
 
-let count = 7;
-
-
-console.log(count);
-
+//change the count-el in the HTML
+let countEl = document.getElementById("count-el");
+console.log(countEl)
+let count =0;
+function increment ()
+{
+ 
+ count = count + 1;
+ countEl.innerText = count;
+ console.log(count);
+}
