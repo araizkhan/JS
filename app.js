@@ -15,7 +15,7 @@ function increment ()
 
 function save()
 {
-  console.log(count)
+  console.log(count);
 }
 
 
