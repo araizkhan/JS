@@ -10,5 +10,5 @@ function increment ()
  
  count = count + 1;
  countEl.innerText = count;
- console.log(count);
+//  console.log(count);
 }
