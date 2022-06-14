@@ -5,6 +5,10 @@ body {
  font-weight: bold;
  text-align: center;
 }
+p
+{
+color: aliceblue;
+}
 
 h1 {
  margin-top: 10px;
