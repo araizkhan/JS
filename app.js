@@ -3,16 +3,16 @@ console.log(countEl)
 let count =0;
 function increment ()
 {
- 
  count += 1;
- countEl.innerText = count;
-
+ countEl.textContent = count;
 }
 let saveEl = document.getElementById("save-el");
 function save()
 {
   let savee = count + " - ";
-  saveEl.innerText += savee;
+  saveEl.textContent += savee;
+  count = 0;
+  countEl.textContent = 0;
   // console.log(count);
 }
 
