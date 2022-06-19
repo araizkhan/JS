@@ -1,9 +1,9 @@
 body {
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
- background-image: url("images/table.png");
+ background-image: url("./table.jpg");
  background-size: cover;
  font-weight: bold;
- color: white;
+ color: black;
  text-align: center;
 }
 
@@ -15,8 +15,7 @@ h1 {
  font-style: italic;
 }
 
-/* 3. Make sure that the two buttons have some space between
-each other when they are rendered out vertically */
+
 button {
  color: #016f32;
  width: 150px;
