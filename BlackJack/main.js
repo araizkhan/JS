@@ -1,4 +1,4 @@
-let cards = []
+let cards = [ ]
 let sum = 0
 let hasBlackJack = false
 let isAlive = false
